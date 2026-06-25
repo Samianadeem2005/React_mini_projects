@@ -49,6 +49,8 @@ function App() {
                                 onAmountChange={(amount) => setAmount(amount)}
                             />
                         </div>
+
+                        //swap button
                         <div className="relative w-full h-0.5">
                             <button
                                 type="button"
@@ -58,6 +60,7 @@ function App() {
                                 swap
                             </button>
                         </div>
+                        
                         <div className="w-full mt-1 mb-4">
                             <InputBox
                                 label="To"
